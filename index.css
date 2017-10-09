@@ -1,0 +1,16 @@
+p,body,ul,li,#imgs,#indexs{margin:0;padding:0;}
+ul li{list-style: none;}
+#imgs li{
+	float:left;
+}
+.container{width:100%;}
+#indexs{float:left;}
+.clear :after{display:block;
+content:"";clear:both;}
+.slider{overflow: hidden;box-sizing: border-box;position:relative;height:300px;width:1200px;margin:0 auto;}
+#imgs{position:absolute;height:300px;}
+#imgs li{height:300px;}
+#indexs{position:absolute;right:10%;bottom:40%;}
+#indexs li{float:left;width:30px;height:30px;box-sizing:border-box;text-align:center;}
+img{width:1200px;}
+.hover{background: green;}
